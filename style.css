@@ -15,16 +15,18 @@ body {
     background: rgb(3, 3, 41);
 }
 
+
 #clock h2 {
     position: relative;
     display: block;
     color: #fff;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.4em;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    
 }
 
 #clock #time {
@@ -33,7 +35,8 @@ body {
 
 #clock #time div {
     position: relative;
-    margin: 0 5px;
+    margin: 0 15px;
+    box-shadow: 0 0 10px 8px  #2a4458;
     -webkit-box-reflect: below px linear-gradient(transparent, #0004);
 }
 
